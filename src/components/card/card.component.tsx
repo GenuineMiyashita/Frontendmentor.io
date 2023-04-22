@@ -1,70 +1,93 @@
-import mobileImg from "../../assets/Roxas_01.jpeg";
+import { useState } from "react";
+import products from "../Items";
+import Button from "../button/button.component";
 import cartImg from "../../assets/icon-cart.svg";
+import "./card.styles.css";
 
 const Card = () => {
+  const [items, setItems] = useState(products[0]);
+
+  console.log(items);
+
+  const handleNextItem = () => {
+    setItems(products[1]);
+  };
+
   return (
-    <main>
-      <div className="ml-11 w-3/4">
-        {/* Hero Image */}
+    <>
+      {/* <div>
+        {items.map((item) => {
+          if (item.id === 1) {
+            return (
+              <div key={item.id}>
+                <div>
+                  <h1>{item.name}</h1>
+                </div>
+              </div>
+            );
+          }
+        })}
+      </div> */}
 
-        <img
-          src={mobileImg}
-          alt="..."
-          className="rounded-t-lg
-        "
-        />
+      <div className="container" id="mainContainer">
+        <div className="rounded-t-lg" id="imgContainer">
+          {items.img}
+        </div>
 
-        {/* Hero Section */}
-        <div className="rounded-b-lg bg-yellow-200 px-5 text-left">
-          {/* Item Category */}
-          <p className="pt-4 font-montserrat text-sm font-medium tracking-[.35em]">
-            ルームフレグランス
+        <div
+          className="rounded-b-lg bg-yellow-200 px-5 text-left"
+          id="textContainer"
+        >
+          <p
+            className="pt-2 font-montserrat text-sm font-medium tracking-[.35em]"
+            id="itemCategory"
+          >
+            {items.category}
           </p>
-          {/* Item Name */}
-          <h1 className="pt-4 font-fraunces text-3xl font-bold">ロクサス</h1>
-          {/* Item Description */}
-          <p className="pt-4 font-montserrat text-sm font-medium">
-            {" "}
-            プチ グレインのグリーンをイメージしたシトラス
-            アコードから、クローバーの甘さが広がり、ラストはムスクやアンバー、バルサム
-            ノートが夏の暑さを感じさせる香り。
+
+          <h1 className="pt-2 font-fraunces text-3xl font-bold" id="itemName">
+            {items.name}
+          </h1>
+
+          <p
+            className="pt-2 font-montserrat text-sm font-medium"
+            id="itemDescription"
+          >
+            {items.description}
           </p>
 
-          <div>
+          <div id="priceContainer">
             {/* Screen reader price */}
             <div className="sr-only">Current: 44.29</div>
-            {/* Normal Price */}
-            <p className="py-4 font-fraunces text-3xl" aria-hidden="true">
-              {" "}
-              5,940円
+            <p
+              className="py-1 font-fraunces text-3xl"
+              aria-hidden="true"
+              id="itemSalePrice"
+            >
+              {items.salePrice}
+
               {/* Screen reader price */}
               <span className="sr-only">Original: 55.93</span>
-              {/* Normal Price */}
               <span
+                id="itemPrice"
                 className="ml-4 align-middle font-montserrat text-sm line-through"
                 aria-hidden="true"
               >
-                7500円
+                {items.price}
               </span>
             </p>
-            <button className="mb-4 w-full rounded-xl bg-gray-700">
-              <img src={cartImg} className="mr-3 inline" alt="..." />
+            <Button />
+            <button
+              className="my-2 w-full rounded-xl bg-gray-700 py-1 hover:bg-gray-800"
+              id="checkoutBtn"
+            >
+              <img src={cartImg} className="mr-4 inline" alt="..." />
               <p className="inline font-montserrat text-white">カートに追加</p>
             </button>
           </div>
         </div>
-
-        {/* Previous and next buttons */}
-        <div className="mt-4 flex justify-around font-montserrat text-xs text-white">
-          <button className="rounded-full bg-gray-800 px-2 py-1 ">
-            &larr; Prev
-          </button>
-          <button className="rounded-full bg-gray-800 px-2 py-1 ">
-            Next &rarr;
-          </button>
-        </div>
       </div>
-    </main>
+    </>
   );
 };
 
