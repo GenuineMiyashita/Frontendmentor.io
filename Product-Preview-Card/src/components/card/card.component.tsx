@@ -4,6 +4,9 @@ import Button from "../button/button.component";
 import cartImg from "../../assets/icon-cart.svg";
 import "./card.styles.css";
 
+// Change Button Component to be single instead of dual for 1 prev and 1 next on card component
+// Figure out useState and moving between all 3 items in the array, otherwise, just stick to 2.
+
 const Card = () => {
   const [items, setItems] = useState(products[0]);
 
