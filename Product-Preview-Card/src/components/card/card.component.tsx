@@ -12,6 +12,10 @@ const Card = () => {
 
   console.log(items);
 
+  const handlePrevItem = () => {
+    setItems(products[0]);
+  };
+
   const handleNextItem = () => {
     setItems(products[1]);
   };
@@ -79,7 +83,20 @@ const Card = () => {
                 {items.price}
               </span>
             </p>
-            <Button />
+            <div className="flex justify-evenly py-1">
+              <button
+                className="rounded bg-gray-300 px-2 font-bold text-gray-800 hover:bg-gray-400"
+                onClick={handlePrevItem}
+              >
+                &larr; Prev
+              </button>
+              <button
+                className="rounded bg-gray-300 px-2 font-bold text-gray-800 hover:bg-gray-400"
+                onClick={handleNextItem}
+              >
+                Next &rarr;
+              </button>
+            </div>
             <button
               className="my-2 w-full rounded-xl bg-gray-700 py-1 hover:bg-gray-800"
               id="checkoutBtn"

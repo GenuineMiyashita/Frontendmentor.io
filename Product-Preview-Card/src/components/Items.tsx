@@ -1,12 +1,19 @@
 import RoxasMobile from "../assets/Roxas_01.jpeg";
 import RoxasDesk from "../assets/Roxas_02.jpeg";
-import Axel from "../assets/Axel_01.jpeg";
-import Xion from "../assets/Xion_01.jpg";
+import AxelMobile from "../assets/Axel_01.jpeg";
+import AxelDesk from "../assets/Axel_02.jpeg";
+import XionMobile from "../assets/Xion_01.jpg";
+import XionDesk from "../assets/Xion_02.jpg";
 
 const Items = [
   {
     id: 1,
-    img: <img src={RoxasMobile} alt="..." />,
+    img: (
+      <picture>
+        <source media="(min-width: 720px" srcSet={RoxasDesk}></source>
+        <img src={RoxasMobile} alt="..." />
+      </picture>
+    ),
     category: "ルームフレグランス",
     name: "ロクサス",
     description:
@@ -16,7 +23,12 @@ const Items = [
   },
   {
     id: 2,
-    img: <img src={Axel} alt="..." />,
+    img: (
+      <picture>
+        <source media="(min-width: 720px" srcSet={AxelDesk}></source>
+        <img src={AxelMobile} alt="..." />
+      </picture>
+    ),
     category: "ルームフレグランス",
     name: "アクセル",
     description:
@@ -26,7 +38,12 @@ const Items = [
   },
   {
     id: 3,
-    img: <img src={Xion} alt="..." />,
+    img: (
+      <picture>
+        <source media="(min-width: 720px" srcSet={XionDesk}></source>
+        <img src={XionMobile} alt="..." />
+      </picture>
+    ),
     category: "ルームフレグランス",
     name: "シオン",
     description:
