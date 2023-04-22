@@ -1,11 +1,12 @@
-import Roxas from "../assets/Roxas_01.jpeg";
+import RoxasMobile from "../assets/Roxas_01.jpeg";
+import RoxasDesk from "../assets/Roxas_02.jpeg";
 import Axel from "../assets/Axel_01.jpeg";
 import Xion from "../assets/Xion_01.jpg";
 
 const Items = [
   {
     id: 1,
-    img: { Roxas },
+    img: <img src={RoxasMobile} alt="..." />,
     category: "ルームフレグランス",
     name: "ロクサス",
     description:
@@ -15,7 +16,7 @@ const Items = [
   },
   {
     id: 2,
-    img: { Axel },
+    img: <img src={Axel} alt="..." />,
     category: "ルームフレグランス",
     name: "アクセル",
     description:
@@ -25,7 +26,7 @@ const Items = [
   },
   {
     id: 3,
-    img: { Xion },
+    img: <img src={Xion} alt="..." />,
     category: "ルームフレグランス",
     name: "シオン",
     description:
