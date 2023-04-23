@@ -14,12 +14,12 @@ const Items = [
         <img src={RoxasMobile} alt="..." />
       </picture>
     ),
-    category: "Room Fragrance Mist",
-    name: "Roxas",
+    category: "ルームフレグランス",
+    name: "ロクサス",
     description:
-      "From the Petite Grain's green-inspired Citrus Accord, the sweetness of the clover spreads, the last is a scent that makes Musk and Amber, and Balsam Note feel the summer heat.",
-    price: "7500 Yen",
-    salePrice: "5,940 Yen",
+      "プチ グレインのグリーンをイメージしたシトラス アコードから、クローバーの甘さが広がり、ラストはムスクやアンバー、バルサム ノートが夏の暑さを感じさせる香り。",
+    price: "7500円",
+    salePrice: "5,940円",
   },
   {
     id: 2,
@@ -29,12 +29,12 @@ const Items = [
         <img src={AxelMobile} alt="..." />
       </picture>
     ),
-    category: "Room Fragrance Mist",
-    name: "Axel",
+    category: "ルームフレグランス",
+    name: "アクセル",
     description:
-      "The fresh scent of Apple and Citrus spreads the sweetness of jasmine and peach, and the last is a scent that allows mild musk and amber to wrap in a warm aura.",
-    price: "7500 Yen",
-    salePrice: "5,940 Yen",
+      "アップルとシトラスのフレッシュな香り立ちから、ジャスミンとピーチの甘みが広がり、ラストはマイルドなムスクとアンバーが温かみのあるオーラで包み込んでくれるような香りです。",
+    price: "7500円",
+    salePrice: "5,940円",
   },
   {
     id: 3,
@@ -44,12 +44,12 @@ const Items = [
         <img src={XionMobile} alt="..." />
       </picture>
     ),
-    category: "Room Fragrance Mist",
+    category: "ルームフレグランス",
     name: "シオン",
     description:
-      "The fresh scent of grapefruit spreads a small tea note, and the last is a moist sea salt and balsamic love danam that gives you the endless memories of late summer dusk.",
-    price: "7500 Yen",
-    salePrice: "5,940 Yen",
+      "グレープフルーツのフレッシュな香り立ちから、微かなティーノートが広がり、ラストはしっとりとしたシーソルトとバルサミックなラブダナムが夏の終わりの夕暮れの切ない思い出を感じさせる香りです。",
+    price: "7500円",
+    salePrice: "5,940円",
   },
 ];
 
