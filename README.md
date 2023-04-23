@@ -1,4 +1,4 @@
-# My frontendmentor.io solutions
+# My frontendmentor.io Submissions
 
 This repository is a collection of all my submissions over at [frontendmentor.io ](https://www.frontendmentor.io/)
 

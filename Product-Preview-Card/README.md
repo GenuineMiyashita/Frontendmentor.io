@@ -29,8 +29,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: (https://www.frontendmentor.io/solutions/product-preview-card-component-Y2WcYCPhC2)
-- Live Site URL: (https://genuinemiyashita.github.io/Product-Preview-Card/)
+- Solution URL: [Solution](https://www.frontendmentor.io/solutions/product-preview-card-component-Y2WcYCPhC2)
+- Live Site URL: [Live](https://femchallone.netlify.app/)
 
 ## My process
 
@@ -45,11 +45,11 @@ This is my first React.js project outside of a Udemy course and I started it run
 
 ### What I learned
 
-I had the opportunity to apply a lot of concepts that I'm learning from the Rect course I'm taking on Udemy in a non-course environment. Just in my attempt on implementing the buttons in my desired function I read through a ton of Stack Overflow, React Docs, and Reddit. I learned a lot more about useState and props. Additionally, by using TypeScript I was able to practice proper function implementation
+I had the opportunity to apply a lot of concepts that I'm learning from the React course I'm taking on Udemy in a non-course environment -- which is tough, but a great way to learn and apply information. Just in my attempt on implementing the buttons in my desired function I read through a ton of Stack Overflow, React Docs, and Reddit. I learned a lot more about useState and props. Additionally, by using TypeScript I was able to practice proper function implementation
 
 ### Continued development
 
-I need to continue learning about useState and props and how to properly apply them from parent to children. I decided that I took long enough on this first challenge and didn't want to hold myself up on just that when I can continue to practice it in other challenges.
+I need to continue learning about useState and props and how to properly apply them from parent to children. Additionally, I need to practice image management as I was trying to trim down the image, however, it would break in wonky ways since it was being passed down from an array. I don't like my solution to srcset.
 
 ## Author
 
