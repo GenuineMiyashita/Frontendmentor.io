@@ -3,13 +3,8 @@ import products from "../Items";
 import cartImg from "../../assets/icon-cart.svg";
 import "./card.styles.css";
 
-// Change Button Component to be single instead of dual for 1 prev and 1 next on card component
-// Figure out useState and moving between all 3 items in the array, otherwise, just stick to 2.
-
 const Card = () => {
   const [items, setItems] = useState(products[0]);
-
-  console.log(items);
 
   const handlePrevItem = () => {
     setItems(products[0]);
@@ -20,21 +15,7 @@ const Card = () => {
   };
 
   return (
-    <>
-      {/* <div>
-        {items.map((item) => {
-          if (item.id === 1) {
-            return (
-              <div key={item.id}>
-                <div>
-                  <h1>{item.name}</h1>
-                </div>
-              </div>
-            );
-          }
-        })}
-      </div> */}
-
+    <main>
       <div className="container" id="mainContainer">
         <div className="rounded-t-lg" id="imgContainer">
           {items.img}
@@ -106,7 +87,7 @@ const Card = () => {
           </div>
         </div>
       </div>
-    </>
+    </main>
   );
 };
 
