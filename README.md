@@ -4,9 +4,9 @@ This repository is a collection of all my submissions over at [frontendmentor.io
 
 ### Newbie
 
-| Tags      | Challanges                     | Live     | Code     | Type |
-| --------- | ------------------------------ | -------- | -------- | ---- |
-| HTML--CSS | Product Preview Card Component | [Live]() | [Code]() | Free |
+| Tags      | Challanges                     | Live     | Code                                                                                           | Type |
+| --------- | ------------------------------ | -------- | ---------------------------------------------------------------------------------------------- | ---- |
+| HTML--CSS | Product Preview Card Component | [Live]() | [Code](https://github.com/GenuineMiyashita/Frontendmentor.io/tree/master/Product-Preview-Card) | Free |
 
 ### Junior
 

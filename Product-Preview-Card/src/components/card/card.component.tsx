@@ -1,6 +1,5 @@
 import { useState } from "react";
 import products from "../Items";
-import Button from "../button/button.component";
 import cartImg from "../../assets/icon-cart.svg";
 import "./card.styles.css";
 

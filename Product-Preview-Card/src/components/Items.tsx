@@ -10,7 +10,7 @@ const Items = [
     id: 1,
     img: (
       <picture>
-        <source media="(min-width: 720px" srcSet={RoxasDesk}></source>
+        <source media="(min-width: 720px)" srcSet={RoxasDesk}></source>
         <img src={RoxasMobile} alt="..." />
       </picture>
     ),
@@ -25,7 +25,7 @@ const Items = [
     id: 2,
     img: (
       <picture>
-        <source media="(min-width: 720px" srcSet={AxelDesk}></source>
+        <source media="(min-width: 720px)" srcSet={AxelDesk}></source>
         <img src={AxelMobile} alt="..." />
       </picture>
     ),
@@ -40,7 +40,7 @@ const Items = [
     id: 3,
     img: (
       <picture>
-        <source media="(min-width: 720px" srcSet={XionDesk}></source>
+        <source media="(min-width: 720px)" srcSet={XionDesk}></source>
         <img src={XionMobile} alt="..." />
       </picture>
     ),
