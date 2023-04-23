@@ -82,7 +82,9 @@ const Card = () => {
               id="checkoutBtn"
             >
               <img src={cartImg} className="mr-4 inline" alt="..." />
-              <p className="inline font-montserrat text-white">Checkout</p>
+              <span className="inline font-montserrat text-white">
+                Checkout
+              </span>
             </button>
           </div>
         </div>
