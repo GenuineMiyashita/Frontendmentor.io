@@ -5,6 +5,7 @@ module.exports = {
     extend: {
       fontFamily: {
         Lato: ["Lato", "sans-serif"],
+        Montserrat: ["Montserrat", "sans-serif"],
       },
     },
   },
