@@ -40,7 +40,7 @@ const Card = () => {
             </h1>
             <p
               id="characterDescription"
-              className="font-light mx-auto w-64
+              className="font-light font-Lato mx-auto w-64
           "
             >
               {currentCharacter.description}
@@ -48,9 +48,25 @@ const Card = () => {
             <p></p>
           </div>
         </div>
-
-        <button onClick={() => incrementCharacter(-1)}>Prev</button>
-        <button onClick={() => incrementCharacter(1)}>Next</button>
+        <div
+          id="buttonContainer"
+          className="flex justify-evenly font-Montserrat font-light mt-4"
+        >
+          <button
+            id="btnOne"
+            className="bg-slate-400 hover:bg-slate-500 px-4 py-1 rounded-xl shadow-md"
+            onClick={() => incrementCharacter(-1)}
+          >
+            &larr; Prev
+          </button>
+          <button
+            id="btnTwo"
+            className="bg-slate-400 hover:bg-slate-500 px-4 py-1 rounded-xl shadow-md"
+            onClick={() => incrementCharacter(1)}
+          >
+            Next &rarr;
+          </button>
+        </div>
       </main>
     </>
   );
