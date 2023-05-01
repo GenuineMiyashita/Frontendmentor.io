@@ -1,9 +1,16 @@
-import React from "react";
-import Trailblazer from "../../assets/Trailblazer.png";
+import { useState } from "react";
+import Characters from "../../Characters";
 import Star from "../../assets/Star.png";
 import "./card.styles.css";
 
 const Card = () => {
+  const [selectedCharacter, setSelectedCharacter] = useState(0);
+  const currentCharacter = Characters[selectedCharacter];
+  const incrementCharacter = (val: number) => {
+    setSelectedCharacter((currentVal: number) => {
+      return Math.min(Math.max(val + currentVal, 0), Characters.length);
+    });
+  };
   return (
     <>
       <main>
@@ -13,10 +20,7 @@ const Card = () => {
       "
         >
           <div id="imgContainer" className="py-4">
-            <img
-              src={Trailblazer}
-              className="mx-auto rounded-full border-black border bg-black"
-            />
+            {currentCharacter.picture}
           </div>
           <div
             id="textContainer"
@@ -31,20 +35,20 @@ const Card = () => {
               id="characterName"
               className=" my-3 text-3xl font-bold font-Montserrat"
             >
-              Trailblazer
+              {currentCharacter.name}
             </h1>
             <p
               id="characterDescription"
               className="font-light mx-auto w-64
           "
             >
-              The Trailblazer is the playable main protagonist of Honkai: Star
-              Rail
+              {currentCharacter.description}
             </p>
             <p></p>
           </div>
         </div>
-        <button className="absolute left-64 top-16"> &lt; </button>
+        <button onClick={() => incrementCharacter(-1)}>Prev</button>
+        <button onClick={() => incrementCharacter(1)}>Next</button>
       </main>
     </>
   );
