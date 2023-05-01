@@ -29,8 +29,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Solution](https://www.frontendmentor.io/solutions/product-preview-s8YrHMPPBG)
-- Live Site URL: [Live](https://fmentorproductpreviewcard.netlify.app/)
+- Solution URL: [Solution](https://www.frontendmentor.io/solutions/qr-code-component-reacttailwindtypescript-qKy7p6hQHv)
+- Live Site URL: [Live](https://fmentorqrcode.netlify.app/)
 
 ## My process
 
