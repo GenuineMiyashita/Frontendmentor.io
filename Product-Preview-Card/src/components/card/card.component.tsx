@@ -71,7 +71,7 @@ const Card = () => {
               </span>
             </button>
 
-            <div className="flex justify-evenly py-1">
+            <div className="flex justify-evenly pb-2 pt-1">
               <button
                 className="rounded bg-gray-300 px-2 font-bold text-gray-800 hover:bg-gray-400"
                 disabled={selectedItem <= 0}
