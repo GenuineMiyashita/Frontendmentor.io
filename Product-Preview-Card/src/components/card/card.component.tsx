@@ -14,7 +14,7 @@ const Card = () => {
 
   return (
     <main>
-      <div className="container" id="mainContainer">
+      <div className="w-80" id="mainContainer">
         <div className="rounded-t-lg" id="imgContainer">
           {currentItem.img}
         </div>
@@ -61,7 +61,7 @@ const Card = () => {
                 {currentItem.price}
               </span>
             </p>
-            {/* <button
+            <button
               className="my-2 w-full rounded-xl bg-gray-700 py-1 hover:bg-gray-800"
               id="checkoutBtn"
             >
@@ -69,7 +69,7 @@ const Card = () => {
               <span className="inline font-montserrat text-white">
                 Checkout
               </span>
-            </button> */}
+            </button>
 
             <div className="flex justify-evenly py-1">
               <button

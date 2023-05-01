@@ -3,6 +3,10 @@
     border-radius: 3rem 0.5rem 0 0;
   }
 
+  #mainContainer {
+    width: 100%;
+  }
+
   #imgContainer {
     width: 30rem;
   }
@@ -33,6 +37,10 @@
 @media (min-width: 1000px) {
   img {
     border-radius: 3rem 0 0 0.5rem;
+  }
+
+  #mainContainer {
+    width: 100%;
   }
 
   #mainContainer {
