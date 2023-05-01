@@ -5,8 +5,3 @@ body {
   height: 100vh;
   background: linear-gradient(#b1a296, #5d5c61);
 }
-
-img {
-  display: block;
-  width: 100%;
-}
