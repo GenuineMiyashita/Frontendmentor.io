@@ -11,6 +11,7 @@ const Card = () => {
       return Math.min(Math.max(val + currentVal, 0), Characters.length);
     });
   };
+
   return (
     <>
       <main>
@@ -47,6 +48,7 @@ const Card = () => {
             <p></p>
           </div>
         </div>
+
         <button onClick={() => incrementCharacter(-1)}>Prev</button>
         <button onClick={() => incrementCharacter(1)}>Next</button>
       </main>
