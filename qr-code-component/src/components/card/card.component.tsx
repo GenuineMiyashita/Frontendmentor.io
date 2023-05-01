@@ -1,7 +1,6 @@
 import { useState } from "react";
 import Characters from "../../Characters";
 import Star from "../../assets/Star.png";
-import "./card.styles.css";
 
 const Card = () => {
   const [selectedCharacter, setSelectedCharacter] = useState(0);
@@ -55,6 +54,7 @@ const Card = () => {
           <button
             id="btnOne"
             className="bg-slate-400 hover:bg-slate-500 px-4 py-1 rounded-xl shadow-md"
+            disabled={selectedCharacter <= 0}
             onClick={() => incrementCharacter(-1)}
           >
             &larr; Prev
@@ -62,6 +62,7 @@ const Card = () => {
           <button
             id="btnTwo"
             className="bg-slate-400 hover:bg-slate-500 px-4 py-1 rounded-xl shadow-md"
+            disabled={selectedCharacter >= 4}
             onClick={() => incrementCharacter(1)}
           >
             Next &rarr;
