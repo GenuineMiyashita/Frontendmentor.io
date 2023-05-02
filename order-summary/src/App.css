@@ -4,10 +4,16 @@ body {
   justify-content: center;
   align-items: center;
   height: 100vh;
+  background-color: bisque;
+  overflow: hidden;
+}
+
+body,
+html {
+  font-family: "Red Hat Display", "sans-serf";
 }
 
 img {
   display: block;
-  object-fit: cover;
   width: 100%;
 }
