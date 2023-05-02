@@ -1,7 +1,18 @@
-import React from "react";
+import { useState, useEffect } from "react";
+import song from "./assets/lofi.mp3";
 import "./App.css";
 
 function App() {
+  const [value, setValue] = useState(1);
+
+  useEffect(() => {
+    if (value % 2 === 0) play();
+  }, [value]);
+
+  function play() {
+    new Audio(song).play();
+  }
+
   return (
     <>
       <main>
@@ -19,7 +30,7 @@ function App() {
             <img
               src={require("./assets/Hero.jpg")}
               alt="..."
-              onClick={() => alert("It Worked!")}
+              onClick={() => setValue(value + 1)}
             />
           </div>
           <div
