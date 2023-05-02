@@ -62,7 +62,7 @@ const Card = () => {
               </span>
             </p>
             <button
-              className="my-2 w-full rounded-xl bg-gray-700 py-1 hover:bg-gray-800"
+              className="my-2 w-full rounded-xl bg-gray-600 py-1 hover:bg-gray-800"
               id="checkoutBtn"
             >
               <img src={CheckoutCart} className="mr-4 inline" alt="..." />
@@ -71,16 +71,16 @@ const Card = () => {
               </span>
             </button>
 
-            <div className="flex justify-evenly pb-2 pt-1">
+            <div className="flex justify-evenly py-1">
               <button
-                className="rounded bg-gray-300 px-2 font-bold text-gray-800 hover:bg-gray-400"
+                className="rounded bg-gray-600 px-2 font-bold text-white hover:bg-gray-800"
                 disabled={selectedItem <= 0}
                 onClick={() => incrementItem(-1)}
               >
                 &larr; Prev
               </button>
               <button
-                className="rounded bg-gray-300 px-2 font-bold text-gray-800 hover:bg-gray-400"
+                className="rounded bg-gray-600 px-2 font-bold text-white hover:bg-gray-800"
                 disabled={selectedItem >= 2}
                 onClick={() => incrementItem(1)}
               >
