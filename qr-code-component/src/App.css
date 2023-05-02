@@ -3,8 +3,5 @@ body {
   justify-content: center;
   align-items: center;
   height: 100vh;
-  background-image: url("./assets/Background.png");
-  background-position: left;
-  background-repeat: no-repeat;
-  background-color: bisque;
+  background: linear-gradient(#ffe4c4, #616163);
 }
