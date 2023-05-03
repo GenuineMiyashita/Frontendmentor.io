@@ -28,7 +28,7 @@ const PrayermakerModal = () => {
           <div onClick={toggleModal} className="overlay"></div>
           <div className="modal-content">
             <h2 className="font-Marcellus text-2xl py-3 font-bold">
-              Archivist
+              Prayermaker
             </h2>
             <div className="flex text-xs justify-evenly align-middle pb-3 font-Nunito">
               <p>Level: 60</p>

@@ -12,7 +12,7 @@ const Card = () => {
         className="w-80 rounded-lg shadow-xl overflow-hidden"
       >
         <div
-          id="warriorContainer"
+          id="archivistContainer"
           className="bg-archivistBackground bg-no-repeat bg-cover h-48"
         >
           <div className="text-center h-full flex flex-col justify-center bg-gray-400/20">
@@ -23,7 +23,7 @@ const Card = () => {
           </div>
         </div>
         <div
-          id="mageContainer"
+          id="enchanterContainer"
           className="bg-enchanterBackground bg-no-repeat bg-cover h-48"
         >
           <div className="text-center h-full flex flex-col justify-center bg-gray-400/20">
@@ -34,7 +34,7 @@ const Card = () => {
           </div>
         </div>
         <div
-          id="rogueContainer"
+          id="prayermakerContainer"
           className="bg-prayermakerBackground bg-no-repeat bg-cover h-48"
         >
           <div className="text-center h-full flex flex-col justify-center bg-gray-400/20">

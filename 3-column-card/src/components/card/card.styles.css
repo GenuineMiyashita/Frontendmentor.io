@@ -1,0 +1,27 @@
+@media (min-width: 768px) {
+  #mainContainer {
+    display: flex;
+    flex-direction: row;
+    width: 800px;
+    height: 450px;
+  }
+
+  #archivistContainer,
+  #enchanterContainer,
+  #prayermakerContainer {
+    width: 100%;
+    height: 100%;
+  }
+
+  #archivistContainer {
+    background-position: 25%;
+  }
+
+  #enchanterContainer {
+    background-position: 50%;
+  }
+
+  #prayermakerContainer {
+    background-position: 40%;
+  }
+}
