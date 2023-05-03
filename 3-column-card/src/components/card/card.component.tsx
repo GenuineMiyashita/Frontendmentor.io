@@ -1,6 +1,8 @@
 // https://www.artstation.com/kaws_peter
-import Modal from "../modal/modal.component";
 import "./card.styles.css";
+import ArchivistModal from "../modal/archivistModal.component";
+import EnchanterModal from "../modal/enchanterModal.component";
+import PrayermakerModal from "../modal/prayermakerModal.component";
 
 const Card = () => {
   return (
@@ -11,38 +13,35 @@ const Card = () => {
       >
         <div
           id="warriorContainer"
-          className="bg-backgroundOne bg-no-repeat bg-cover h-48"
+          className="bg-archivistBackground bg-no-repeat bg-cover h-48"
         >
-          <div className="text-center h-full flex flex-col justify-center bg-gray-400/25">
-            <h2 className="font-Marcellus text-2xl">Warrior</h2>
-            <p className="font-Nunito">
-              Lorem ipsum dolor sit amet consectetur, adipisicing elit.
-            </p>
-            <Modal />
+          <div className="text-center h-full flex flex-col justify-center bg-gray-400/20">
+            <h2 className="font-Marcellus text-3xl font-bold text-black mb-4 bg-slate-400/20 shadow-sm tracking-wide">
+              Archivist
+            </h2>
+            <ArchivistModal />
           </div>
         </div>
         <div
           id="mageContainer"
-          className="bg-backgroundTwo bg-no-repeat bg-cover h-48"
+          className="bg-enchanterBackground bg-no-repeat bg-cover h-48"
         >
-          <div className="text-center h-full flex flex-col justify-center bg-gray-400/25">
-            <h2 className="font-Marcellus text-2xl">Mage</h2>
-            <p className="font-Nunito">
-              Lorem ipsum dolor sit amet consectetur, adipisicing elit.
-            </p>
-            <Modal />
+          <div className="text-center h-full flex flex-col justify-center bg-gray-400/20">
+            <h2 className="font-Marcellus text-3xl font-bold text-black mb-4 bg-slate-400/20 shadow-sm tracking-wide">
+              Enchanter
+            </h2>
+            <EnchanterModal />
           </div>
         </div>
         <div
           id="rogueContainer"
-          className="bg-backgroundThree bg-no-repeat bg-cover h-48"
+          className="bg-prayermakerBackground bg-no-repeat bg-cover h-48"
         >
-          <div className="text-center h-full flex flex-col justify-center bg-gray-400/25">
-            <h2 className="font-Marcellus text-2xl">Rogue</h2>
-            <p className="font-Nunito">
-              Lorem ipsum dolor sit amet consectetur, adipisicing elit.
-            </p>
-            <Modal />
+          <div className="text-center h-full flex flex-col justify-center bg-gray-400/20">
+            <h2 className="font-Marcellus text-3xl font-bold text-black mb-4 bg-slate-400/20 shadow-sm tracking-wide">
+              Prayermaker
+            </h2>
+            <PrayermakerModal />
           </div>
         </div>
       </div>

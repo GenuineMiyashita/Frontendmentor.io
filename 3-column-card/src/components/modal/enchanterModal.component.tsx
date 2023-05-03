@@ -1,7 +1,7 @@
 import { useState } from "react";
-import "./modal.styles.css";
+import "./enchanterModal.styles.css";
 
-const Modal = () => {
+const EnchanterModal = () => {
   const [modal, setModal] = useState(false);
 
   const toggleModal = () => {
@@ -16,7 +16,10 @@ const Modal = () => {
 
   return (
     <>
-      <button onClick={toggleModal} className="btn-modal">
+      <button
+        onClick={toggleModal}
+        className="bg-btnColor/80 w-24 mx-auto font-Nunito font-medium text-neutral-100 rounded-md shadow-xl"
+      >
         Learn More
       </button>
 
@@ -24,8 +27,14 @@ const Modal = () => {
         <div className="modal">
           <div onClick={toggleModal} className="overlay"></div>
           <div className="modal-content">
-            <h2>Hello Modal</h2>
-            <p>
+            <h2 className="font-Marcellus text-2xl py-3 font-bold">
+              Enchanter
+            </h2>
+            <div className="flex text-xs justify-evenly align-middle pb-3 font-Nunito">
+              <p>Level: 60</p>
+              <p>Academy of Onoknorth</p>
+            </div>
+            <p className="font-Nunito font-medium text-sm">
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident
               perferendis suscipit officia recusandae, eveniet quaerat assumenda
               id fugit, dignissimos maxime non natus placeat illo iusto!
@@ -34,7 +43,7 @@ const Modal = () => {
               placeat tempora vitae enim incidunt porro fuga ea.
             </p>
             <button className="close-modal" onClick={toggleModal}>
-              CLOSE
+              Close
             </button>
           </div>
         </div>
@@ -43,4 +52,4 @@ const Modal = () => {
   );
 };
 
-export default Modal;
+export default EnchanterModal;
