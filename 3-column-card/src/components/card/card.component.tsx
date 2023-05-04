@@ -7,6 +7,12 @@ const Card = () => {
   return (
     <>
       <main>
+        <h1
+          id="pickClass"
+          className="text-center mb-4 text-2xl font-Marcellus bg-slate-500/25 mx-auto rounded-lg"
+        >
+          Choose Your Advanced Class
+        </h1>
         <div
           id="mainContainer"
           className="w-80 rounded-lg shadow-xl overflow-hidden"
