@@ -1,0 +1,152 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    font-family: 'Montserrat', sans-serif;
+    background-image: linear-gradient(#F5CAC3, #F28482);
+}
+
+picture {
+    width: 22rem;
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    max-width: 36rem;
+    border-radius: 1rem;
+    box-shadow: 0.25rem 0.25rem 2rem #D69F9E;
+}
+
+.sr-only {
+    border: 0;
+    clip: rect(0 0 0 0);
+    clip-path: inset(50%);
+    height: 1;
+    margin: 0 -1px -1px 0;
+    overflow: hidden;
+    padding: 0;
+    position: absolute;
+    width: 1;
+}
+
+#hero-image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 1rem 1rem 0 0;
+}
+
+/* Hero Text Settings */
+
+#hero-section {
+    display: flex;
+    flex-direction: column;
+    width: 22rem;
+    height: 29rem;
+    text-align: left;
+    padding: 1.25rem;
+    border-radius: 0 0 1rem 1rem;
+    background: #F7EDE2;
+}
+
+#product-category {
+    color: #55596C;
+    font-size: 0.9rem;
+    font-weight: 400;
+    letter-spacing: 0.4rem;
+    text-transform: uppercase;
+    margin: 0.5rem 0;
+    
+}
+
+#product-name {
+    color: #1c232b;
+    font-family: 'Fraunces', sans-serif;
+    font-size: 1.5rem;
+    margin: 0.5rem 0;
+}
+
+#product-description {
+    color: #55596C;
+    font-size: 1rem;
+    line-height: 1.5rem;
+    margin: 0.5rem 0;
+}
+
+/* Price Settings */
+
+.hero-price {
+    display: flex;
+    text-align: left;
+}
+
+#current-price {
+    color: #8482F2;
+    font-family: 'Fraunces', sans-serif;
+    font-size: 1.5rem;
+    font-weight: 700;
+}
+
+#original-price {
+    align-self: center;
+    color: #8482F2;
+    text-decoration: line-through;
+    padding-left: 1rem;
+}
+
+/* Button Settings */
+
+button {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    color: #fff;
+    font-family: 'Fraunces', sans-serif;
+    font-weight: 500;
+    font-size: 1rem;
+    background-color: #8482F2;
+    border: none;
+    border-radius: 10px;
+    padding: 0.75rem 1rem;
+    margin-top: 0.75rem;
+}
+
+button:hover {
+    cursor: pointer;
+    background: #5552ED;
+}
+
+button > img {
+    padding-right: 10px;
+}
+
+/* Media Queries */
+
+
+/* Desktop and Tablet */
+@media (min-width: 45rem) {
+    main {
+        flex-direction: row;
+    }
+
+    picture {
+        width: 29rem;
+        height: 29rem;
+    }
+
+    #hero-section {
+        width: 29rem;
+        border-radius: 0 1rem 1rem 0;
+    }
+
+    #hero-image {
+        border-radius: 1rem 0 0 1rem;
+    }
+}
+   
+/* iPhone 6/7/8 */
+

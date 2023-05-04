@@ -1,0 +1,117 @@
+:root {
+    --mainColor: #f2f2f2;
+    --subColor: #ffffffbf;
+}
+
+body {
+    font-family: 'Lexend Deca', sans-serif;
+    font-weight: 400;
+    font-size: 0.83rem;
+    background-color: var(--mainColor);
+}
+
+h2 {
+    font-family: 'Big Shoulders Display', sans-serif;
+    font-weight: 700;
+    font-size: 2.3rem;
+    text-transform: uppercase;
+    color: var(--mainColor);
+}
+
+p {
+    color: var(--subColor);
+}
+
+#main-container {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    margin: 2rem auto;
+    width: 20rem;
+} 
+
+.secondary-container {
+    margin: 2.5rem 2.25rem 0 2.25rem;
+}
+
+.button {
+    width: 50%;
+    margin: 1rem 0 2.25rem 2.25rem;
+    padding: 0.75rem 1.75rem;
+    border: 1px solid var(--mainColor);
+    border-radius: 2rem;
+}
+
+/* SEDAN SETTINGS */
+
+#sedan-container {
+    background-color: #e38826;
+    border-radius: 1rem 1rem 0 0;
+}  
+
+#sedan-container button {
+    color: #e38826;
+}
+
+#sedan-container button:hover {
+    background-color: #e38826;
+    cursor: pointer;
+    color: var(--mainColor);
+}
+
+/* SUV SETTINGS */
+
+#suv-container {
+   background-color: #006970;
+}
+
+#suv-container button {
+    color: #006970;
+}
+
+#suv-container button:hover {
+    background-color: #006970;
+    cursor: pointer;
+    color: var(--mainColor);
+}
+
+/* LUXURY SETTINGS */
+
+#luxury-container {
+    background-color: #004241;
+    border-radius: 0 0 1rem 1rem;
+}
+
+#luxury-container button {
+    color: #004241;
+}
+
+#luxury-container button:hover {
+    background-color: #004241;
+    cursor: pointer;
+    color: var(--mainColor);
+}
+
+/* MEDIA QUERIES */
+
+@media (min-width: 960px) {
+    #main-container {
+        flex-direction: row;
+        justify-content: center;
+        width: 50rem;
+        margin: 13rem auto;
+        
+    }
+
+    #sedan-container {
+        border-radius: 0.5rem 0 0 0.5rem;
+    }
+
+    #luxury-container {
+        border-radius: 0 0.5rem 0.5rem 0;
+    }
+
+    .button {
+        width: 65%;
+    }
+}

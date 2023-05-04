@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,700&family=Montserrat:wght@100;200;400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="sanitize.css" />
+    <link rel="stylesheet" href="styles.css" />
+    <title>Frontend Mentor | Product preview card component</title>
+  </head>
+  <body>
+    <main>
+      <picture>
+        <source media="(min-width: 720px)" srcset="images/Axel-desktop.jpeg" />
+        <img
+          id="hero-image"
+          src="images/Axel-mobile.jpeg"
+          alt="Rectangle shaped, glass bottle of fragrance based off axel from kingdom hearts."
+        />
+      </picture>
+
+      <section id="hero-section">
+        <p id="product-category">Fragrance</p>
+        <h1 id="product-name">Kingdom Hearts [Axel] Room Mist</h1>
+        <p id="product-description">
+          From the fresh scent of apple and citrus, the sweetness of jasmine and
+          peach spreads, and the last is a scent that wraps you in a warm aura
+          of mild musk and amber.
+        </p>
+
+        <div class="hero-price">
+          <div class="sr-only">Current: 149.99</div>
+          <p aria-hidden="true" id="current-price">$149.99</p>
+
+          <div class="sr-only">Original: 169.99</div>
+          <p aria-hidden="true" id="original-price">$169.99</p>
+        </div>
+
+        <button>
+          <img
+            id="cart-icon"
+            src="images/icon-cart.svg"
+            alt="shopping cart icon"
+          />Add to Cart
+        </button>
+      </section>
+    </main>
+  </body>
+</html>
