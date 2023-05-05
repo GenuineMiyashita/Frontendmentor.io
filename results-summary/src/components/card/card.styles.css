@@ -2,3 +2,34 @@
   background-color: #c0af85;
   background: linear-gradient(#8dd9ce, #c1935a);
 }
+
+@media (min-width: 768px) {
+  body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: linear-gradient(#6b564a, #372b26);
+  }
+
+  #mainContainer {
+    display: flex;
+    background-color: hsla(0, 0%, 96%, 0.8);
+    border-radius: 1.5rem;
+    box-shadow: 0 1px 3px 0 rgb(0 0 0 / 0.1), 0 1px 2px -1px rgb(0 0 0 / 0.1);
+  }
+
+  #characterContainer {
+    border-radius: 1.5rem;
+    min-width: 20.625rem;
+  }
+
+  #characterLore {
+    width: 17.188rem;
+  }
+
+  #statContainer {
+    margin: 0;
+    align-self: center;
+  }
+}
