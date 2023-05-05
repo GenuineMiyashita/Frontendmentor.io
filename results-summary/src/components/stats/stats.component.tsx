@@ -5,7 +5,6 @@ const StatList = () => {
   const character = Attributes.map((attribute) => {
     return (
       <li
-        id="stats"
         key={attribute.id}
         className="flex justify-between my-1 px-2 py-1.5 rounded-md bg-gradient-to-r  from-orange-200 to-teal-200"
       >
