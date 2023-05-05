@@ -29,7 +29,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Solution](https://www.frontendmentor.io/solutions/order-summary-reacttailwindtypescript-aaxrIG5Y9R)
+- Solution URL: [Solution](https://www.frontendmentor.io/solutions/results-summary-IGVogVjF2j)
 - Live Site URL: [Live](https://fmentorresultssummary.netlify.app/)
 
 ## My process
