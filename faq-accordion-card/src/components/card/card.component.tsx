@@ -1,7 +1,6 @@
 import { useState } from "react";
 import heroImg from "../../assets/illustration-woman-online-mobile.svg";
 import arrowDown from "../../assets/icon-arrow-down.svg";
-import "./card.styles.css";
 
 const Card = () => {
   const [showText, setShowText] = useState(false);
@@ -9,8 +8,7 @@ const Card = () => {
   return (
     // Main Container
     <main className="w-[20.438rem] h-[40.162rem]">
-      {/* Image Container */}
-      <section id="imgContainer" className="w-[14.803rem] mx-auto">
+      <section id="imgContainer">
         <img src={heroImg} alt="..." />
       </section>
       {/* Text Container */}
