@@ -2,7 +2,8 @@ const QuestionsAnswers = [
   {
     id: 1,
     question: "How many team members can I invite?",
-    answer: "You can have an unlimited amount of team members!",
+    answer:
+      "You can invite three members for free. Otherwise, a premium subscription is required for more.",
   },
   {
     id: 2,
@@ -13,19 +14,17 @@ const QuestionsAnswers = [
   {
     id: 3,
     question: "How do I reset my password?",
-    answer: ` You can reset your password by clicking on the "forgot password"
-          button under login.`,
+    answer: `Click “Forgot password” from the login page. A reset link will be emailed to you.`,
   },
   {
     id: 4,
     question: "Can I cancel my subscription?",
-    answer: `Yes! You can cancel at anytime under the "subscription" section
-          in account settings.`,
+    answer: `You can cancel your subscription anytime under "manage subscription" in your account settings.`,
   },
   {
     id: 5,
     question: " Do you provide additional support?",
-    answer: "Yes! You can contact our support team 24/7 at hi@support.com",
+    answer: "You can email our support team 24/7 at hi@support.com.",
   },
 ];
 
