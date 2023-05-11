@@ -7,6 +7,6 @@
 
 .content.show {
   height: auto;
-  max-height: 9999px;
+  max-height: 625rem;
   transition: all cubic-bezier(1, 0, 1, 0);
 }
