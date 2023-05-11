@@ -1,7 +1,7 @@
 import { useState } from "react";
-import QuestionsAnswers from "../../../questions";
-import arrow from "../../../assets/icon-arrow-down.svg";
-import "./accordion.styles.css";
+import QuestionsAnswers from "../../questions";
+import arrow from "../../assets/icon-arrow-down.svg";
+import "./accordionItem.styles.css";
 
 const AccordionItem = () => {
   const [selected, setSelected] = useState(null);
@@ -15,15 +15,15 @@ const AccordionItem = () => {
   };
 
   return (
-    <div>
+    <div className="w-72 mx-auto font-Kumbh">
       {QuestionsAnswers.map((item, index) => (
         <div className="item">
           <div
-            className="title flex justify-between py-2"
+            className="title flex justify-between py-[0.938rem]"
             onClick={() => toggle(index)}
           >
-            <h2>{item.question}</h2>
-            <span>
+            <h2 className="text-sm">{item.question}</h2>
+            <span className="self-center">
               {selected === index ? (
                 <img src={arrow} alt="..." className="rotate-180" />
               ) : (
@@ -32,7 +32,7 @@ const AccordionItem = () => {
             </span>
           </div>
           <div className={selected === index ? "content show" : "content"}>
-            <p>{item.answer}</p>
+            <p className="text-xs pb-[0.938rem]">{item.answer}</p>
           </div>
         </div>
       ))}
