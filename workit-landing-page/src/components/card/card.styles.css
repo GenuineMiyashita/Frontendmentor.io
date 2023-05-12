@@ -1,0 +1,4 @@
+#ContainerOne,
+#ContainerTwo {
+  clip-path: ellipse(180% 100% at 50% 0);
+}

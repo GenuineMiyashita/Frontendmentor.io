@@ -5,20 +5,24 @@ import LogoDark from "../../assets/logo-dark.svg";
 import LogoLight from "../../assets/logo-light.svg";
 import HeroImage from "../../assets/image-hero.webp";
 import Founder from "../../assets/image-founder.webp";
+import "./card.styles.css";
 
 const Card = () => {
   return (
     <>
       <div id="mainContainer">
-        <div id="ContainerOne" className="bg-[#24053E] text-white">
-          <div className="flex justify-between">
+        <div
+          id="ContainerOne"
+          className="bg-[#24053E] text-white h-[481.71px] clip-path"
+        >
+          <div className="flex justify-between pt-[32px] pb-[64px] px-[16px]">
             <img src={LogoLight} alt="" />
-            <p className="border-b-2 border-b-[#44FFA1] inline">
+            <p className="border-b-2 border-b-[#44FFA1] inline text-base leading-[32px] font-Manrope font-bold">
               <a href="#">Apply for access</a>
             </p>
           </div>
           <div className="text-center">
-            <h1 className="font-Fraunces font-semibold text-[50px] leading-[50px]">
+            <h1 className="font-Fraunces font-semibold text-[50px] leading-[50px] pb-[40px]">
               Data{" "}
               <span className="border-b-[#44FFA1] border-b-4">tailored</span> to
               your needs
@@ -28,13 +32,17 @@ const Card = () => {
             </button>
           </div>
         </div>
-        <div id="ContainerTwo" className="text-center">
-          <div>
+        {/* HERO IMAGE IS HIDDEN */}
+        <div className="w-[300px] absolute hidden">
+          <img src={HeroImage} alt="" />
+        </div>
+        <div id="ContainerTwo" className="text-center px-[16px] bg-[#FCF8FF]">
+          <div className="pb-[40px]">
             <div>
-              <p>1</p>
+              <p className="pb-[24px]">1</p>
             </div>
 
-            <h2 className="font-Fraunces font-semibold text-[28px] leading-[36px] text-[#24053E]">
+            <h2 className="font-Fraunces font-semibold pb-[16px] text-[28px] leading-[36px] text-[#24053E]">
               Actionable insights
             </h2>
             <p className="font-Manrope text-base">
@@ -42,12 +50,12 @@ const Card = () => {
               ahead of the competition with our product data analytics.
             </p>
           </div>
-          <div>
+          <div className="pb-[40px]">
             <div>
-              <p>2</p>
+              <span className="mb-[24px]">2</span>
             </div>
 
-            <h2 className="font-Fraunces font-semibold text-[28px] leading-[36px] text-[#24053E]">
+            <h2 className="font-Fraunces font-semibold pb-[16px] text-[28px] leading-[36px] text-[#24053E]">
               Data-driven decisions
             </h2>
             <p className="font-Manrope text-base">
@@ -56,12 +64,12 @@ const Card = () => {
               product data.
             </p>
           </div>
-          <div>
+          <div className="pb-[40px]">
             <div>
-              <p>3</p>
+              <p className="pb-[24px]">3</p>
             </div>
 
-            <h2 className="font-Fraunces font-semibold text-[28px] leading-[36px] text-[#24053E]">
+            <h2 className="font-Fraunces font-semibold pb-[16px] text-[28px] leading-[36px] text-[#24053E]">
               Always affordable
             </h2>
             <p className="font-Manrope text-base">
