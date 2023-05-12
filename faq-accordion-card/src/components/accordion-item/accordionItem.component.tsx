@@ -15,7 +15,10 @@ const AccordionItem = () => {
   };
 
   return (
-    <div className="w-[17.438rem] mx-auto font-Kumbh cursor-pointer">
+    <div
+      id="accordion"
+      className="w-[17.438rem] mx-auto font-Kumbh cursor-pointer"
+    >
       {QuestionsAnswers.map((item, index) => (
         <div className="item">
           <div

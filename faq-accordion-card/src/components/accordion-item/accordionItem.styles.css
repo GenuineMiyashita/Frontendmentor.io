@@ -10,3 +10,14 @@
   max-height: 625rem;
   transition: all cubic-bezier(1, 0, 1, 0);
 }
+
+@media (min-width: 720px) {
+  #accordion {
+    position: absolute;
+    width: 350px;
+    left: 51.63%;
+    right: 10.33%;
+    top: 27.5%;
+    bottom: 65.62%;
+  }
+}
