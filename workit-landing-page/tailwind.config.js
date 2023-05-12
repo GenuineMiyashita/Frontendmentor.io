@@ -2,7 +2,12 @@
 module.exports = {
   content: ["./src/**/*.{js,jsx,ts,tsx}"],
   theme: {
-    extend: {},
+    extend: {
+      fontFamily: {
+        Fraunces: ["Fraunces", "sans-serif"],
+        Manrope: ["Manrope", "sans-serif"],
+      },
+    },
   },
   plugins: [],
 };
