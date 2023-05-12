@@ -1,0 +1,55 @@
+@media (min-width: 720px) {
+  #mainContainer {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 920px;
+    height: 509px;
+    overflow: hidden;
+  }
+
+  #imgContainer {
+    position: absolute;
+    width: 472px;
+    height: 359px;
+    left: -84px;
+    top: 70px;
+  }
+
+  #boxImg {
+    position: absolute;
+    overflow: visible;
+    width: 200px;
+    height: 206px;
+    left: -25.93px;
+    top: 125.12px;
+    z-index: 99999;
+  }
+
+  #heroShadow {
+    position: absolute;
+    min-width: 964px;
+    min-height: 568px;
+    left: -105.61%;
+    right: 57.83%;
+    top: -102.11%;
+    bottom: -27.7%;
+  }
+
+  #textContainer {
+    width: 920px;
+    height: 509px;
+    bottom: 0;
+    border-radius: 1.5rem;
+  }
+
+  #FAQ {
+    position: absolute;
+    width: 67px;
+    height: 32px;
+    left: 51.63%;
+    right: 41.09%;
+    top: calc(50% - 285px / 2 - 173.5px);
+  }
+}
