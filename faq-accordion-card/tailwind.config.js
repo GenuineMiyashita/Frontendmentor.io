@@ -6,6 +6,12 @@ module.exports = {
       fontFamily: {
         Kumbh: ["Kumbh Sans", "sans serif"],
       },
+      backgroundImage: {
+        mobilePattern: "url('../src/assets/bg-pattern-mobile.svg')",
+        desktopPattern: "url('../src/assets/bg-pattern-desktop.svg')",
+        desktopWoman:
+          "url('../src/assets/illustration-woman-online-desktop.svg)",
+      },
     },
   },
   plugins: [],
