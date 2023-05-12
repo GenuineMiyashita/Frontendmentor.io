@@ -11,20 +11,29 @@ const Card = () => {
     <>
       <div id="mainContainer">
         <div id="ContainerOne" className="bg-[#24053E] text-white">
-          <div>
+          <div className="flex justify-between">
             <img src={LogoLight} alt="" />
-            <p>Apply for access</p>
+            <p className="border-b-2 border-b-[#44FFA1] inline">
+              <a href="#">Apply for access</a>
+            </p>
           </div>
-          <div>
-            <h1>
-              Data <span>tailored</span>to your needs
+          <div className="text-center">
+            <h1 className="font-Fraunces font-semibold text-[50px] leading-[50px]">
+              Data{" "}
+              <span className="border-b-[#44FFA1] border-b-4">tailored</span> to
+              your needs
             </h1>
-            <button>Learn More</button>
+            <button className="w-[133px] h-[55px] bg-[#44FFA1] p-2 text-[#24053E] font-Manrope font-bold text-base leading-[32px]">
+              Learn More
+            </button>
           </div>
         </div>
-        <div id="ContainerTwo">
+        <div id="ContainerTwo" className="text-center">
           <div>
-            <p>1</p>
+            <div>
+              <p>1</p>
+            </div>
+
             <h2 className="font-Fraunces font-semibold text-[28px] leading-[36px] text-[#24053E]">
               Actionable insights
             </h2>
@@ -34,7 +43,10 @@ const Card = () => {
             </p>
           </div>
           <div>
-            <p>2</p>
+            <div>
+              <p>2</p>
+            </div>
+
             <h2 className="font-Fraunces font-semibold text-[28px] leading-[36px] text-[#24053E]">
               Data-driven decisions
             </h2>
@@ -45,7 +57,10 @@ const Card = () => {
             </p>
           </div>
           <div>
-            <p>3</p>
+            <div>
+              <p>3</p>
+            </div>
+
             <h2 className="font-Fraunces font-semibold text-[28px] leading-[36px] text-[#24053E]">
               Always affordable
             </h2>
@@ -56,28 +71,37 @@ const Card = () => {
             </p>
           </div>
         </div>
-        <div id="ContainerThree">
+        <div id="ContainerThree" className="pt-[100.29px]">
           <div>
-            <img src={Founder} alt="..." className="w-60" />
+            <img
+              src={Founder}
+              alt="..."
+              className="w-[265px] mx-auto relative top-12 z-0"
+            />
           </div>
-          <div className="bg-[#24053E]">
-            <h2 className="font-Fraunces font-semibold text-[32px] leading-[48px] text-white">
+          <div className="bg-[#24053E] text-center relative z-10 w-[344px] mb-[74px] mx-auto">
+            <h2 className="pt-[32px] pb-[16px] font-Fraunces font-semibold text-[32px] leading-[48px] w-[281px] mx-auto text-white">
               Be the first to test
             </h2>
-            <p className="font-Manrope text-base leading-[28px] text-white">
+            <p className="font-Manrope text-base leading-[28px] text-white w-[281px] mx-auto">
               Hi, I'm Louis Graham, the founder of the company. Book a demo call
               with me to become a beta tester for oru app and kickstart your
               company. Apply for access below and I'll be in touch to schedule a
               call.
             </p>
-            <button>Apply for access</button>
+            <button className="mt-[24px] mb-[32px] mx-[86px] w-[172px] h-[55px] bg-[#44FFA1] p-2 text-[#24053E] font-Manrope font-bold text-base leading-[32px]">
+              Apply for access
+            </button>
           </div>
         </div>
-        <div id="ContainerFour">
-          <div>
+        <div
+          id="ContainerFour"
+          className="flex flex-col justify-center align-middle"
+        >
+          <div className="mx-auto">
             <img src={LogoDark} alt="..." />
           </div>
-          <div>
+          <div className="flex mx-auto">
             <img src={Facebook} alt="" />
             <img src={Twitter} alt="" />
             <img src={Instagram} alt="" />
