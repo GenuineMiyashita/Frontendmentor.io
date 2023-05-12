@@ -1,46 +1,62 @@
-# Getting Started with Create React App
+# Frontend Mentor - FAQ accordion card
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+![Design preview for the FAQ accordion card coding challenge](./design/desktop-preview.jpg)
 
-## Available Scripts
+## Table of contents
 
-In the project directory, you can run:
+- [Overview](#overview)
+  - [The challenge](#the-challenge)
+  - [Screenshot](#screenshot)
+  - [Links](#links)
+- [My process](#my-process)
+  - [Built with](#built-with)
+  - [What I learned](#what-i-learned)
+  - [Continued development](#continued-development)
+- [Author](#author)
 
-### `npm start`
+## Overview
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+### The challenge
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+Your users should be able to:
 
-### `npm test`
+- View the optimal layout for the component depending on their device's screen size
+- See hover states for all interactive elements on the page
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+### Screenshots
 
-### `npm run build`
+## Desktop
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+![Snapshot](./src/assets/DesktopFinalization.png)
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## Mobile
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+![Snapshot](./src/assets/MobileFinalization.png)
 
-### `npm run eject`
+### Links
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+- Solution URL: [Solution](https://www.frontendmentor.io/solutions/order-summary-reacttailwindtypescript-aaxrIG5Y9R)
+- Live Site URL: [Live](https://fmentorfaqcard.netlify.app/)
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## My process
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+This is the first challenge with React, TypeScript, and Tailwind CSS that isn't a re-design of a previous challenge and it it's the first challenge with my Frontend Mentor pro subscription, so this was my first chance to work with Figma files too. My process has changed and I've been using Milanote to help breakdown a projects to their elements and help visualize each element before I start to code and with the addition of Figma, that process has increased.
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+### Built with
 
-## Learn More
+- React.js
+- Tailwind CSS
+- TypeScript
+- Mobile-First Approach
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+### What I learned
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+As mentioned, this is my first opportunity to work with Figma files and Figma in general. Part of the learning process was outside the project and messing around with the Figma desktop app and getting familiarity with it before I started the project. As for the actual project, this was my first experience with making an accordion card and opted for a simple one that utilizes .map() over my array of questions. However, it might of been better to just start with an accordion from material UI or bootstrap and edit it from there.
+
+### Continued development
+
+Same as usual, I want to continue development on React, Tailwind, and TypeScript. This project really helped me getting comfortable with Tailwind CSS and working with more custom boundaries instead of the pre-defined ones.
+
+## Author
+
+- Frontend Mentor - [@GenuineMiyashita](https://www.frontendmentor.io/profile/GenuineMiyashita)
