@@ -4,50 +4,44 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 920px;
-    height: 509px;
-    overflow: hidden;
+    width: 57.5rem;
+    height: 31.813rem;
   }
 
   #imgContainer {
     position: absolute;
-    width: 472px;
-    height: 359px;
-    left: -84px;
-    top: 70px;
+    width: 29.5rem;
+    height: 23.438rem;
+    left: 0px;
+    top: 4.375rem;
+    overflow: hidden;
   }
 
-  #boxImg {
+  #heroImg {
     position: absolute;
-    overflow: visible;
-    width: 200px;
-    height: 206px;
-    left: -25.93px;
-    top: 125.12px;
+    left: -5rem;
+  }
+
+  #box {
+    position: absolute;
+    width: 12.5rem;
+    height: 12.875rem;
+    left: -6.183rem;
+    top: 13.133rem;
     z-index: 99999;
   }
 
-  #heroShadow {
-    position: absolute;
-    min-width: 964px;
-    min-height: 568px;
-    left: -105.61%;
-    right: 57.83%;
-    top: -102.11%;
-    bottom: -27.7%;
-  }
-
   #textContainer {
-    width: 920px;
-    height: 509px;
-    bottom: 0;
+    width: 57.5rem;
+    height: 31.813rem;
+    top: 0;
     border-radius: 1.5rem;
   }
 
   #FAQ {
     position: absolute;
-    width: 67px;
-    height: 32px;
+    width: 4.188rem;
+    height: 2rem;
     left: 51.63%;
     right: 41.09%;
     top: calc(50% - 285px / 2 - 173.5px);
