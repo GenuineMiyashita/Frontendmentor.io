@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./assets/images/favicon-32x32.png"
+    />
+    <link rel="stylesheet" href="styles.css" />
+    <title>Results Summary Component</title>
+  </head>
+  <body>
+    <main id="main-container">
+      <div id="card-container">
+        <!-- Results Container -->
+
+        <section id="result-container">
+          <h1>Your Result</h1>
+          <div id="score-circle">
+            <p id="main-number">76</p>
+            <p id="total-number">of 100</p>
+          </div>
+          <h2>Great</h2>
+          <p id="description">
+            You scored higher than 65% of the people who have taken these tests.
+          </p>
+        </section>
+
+        <!-- Summary Container -->
+
+        <section id="summary-container">
+          <h1>Summary</h1>
+          <ul id="rating">
+            <li class="rating-item reaction">
+              <div class="attribute">
+                <img
+                  src="assets/images/icon-reaction.svg"
+                  alt=""
+                  class="icons"
+                />
+                <p>Reaction</p>
+              </div>
+              <p class="rating-score">
+                <strong>80</strong> <span class="of-number">/ 100</span>
+              </p>
+            </li>
+
+            <li class="rating-item memory">
+              <div class="attribute">
+                <img src="assets/images/icon-memory.svg" alt="" class="icons" />
+                <p>Memory</p>
+              </div>
+              <p class="rating-score">
+                <strong>92</strong> <span class="of-number">/ 100</span>
+              </p>
+            </li>
+
+            <li class="rating-item verbal">
+              <div class="attribute">
+                <img src="assets/images/icon-verbal.svg" alt="" class="icons" />
+                <p>Verbal</p>
+              </div>
+              <p class="rating-score">
+                <strong>61</strong> <span class="of-number">/ 100</span>
+              </p>
+            </li>
+
+            <li class="rating-item visual">
+              <div class="attribute">
+                <img src="assets/images/icon-visual.svg" alt="" class="icons" />
+                <p>Visual</p>
+              </div>
+              <p class="rating-score">
+                <strong>72</strong> <span class="of-number">/ 100</span>
+              </p>
+            </li>
+          </ul>
+          <button id="button">Continue</button>
+        </section>
+      </div>
+    </main>
+  </body>
+</html>
