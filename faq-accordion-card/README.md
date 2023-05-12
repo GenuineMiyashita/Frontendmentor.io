@@ -35,7 +35,7 @@ Your users should be able to:
 
 ### Links
 
-- Solution URL: [Solution](https://www.frontendmentor.io/solutions/order-summary-reacttailwindtypescript-aaxrIG5Y9R)
+- Solution URL: [Solution](https://www.frontendmentor.io/solutions/faq-accordion-card-reacttypescripttailwind-HsqlOyqqH7)
 - Live Site URL: [Live](https://fmentorfaqcard.netlify.app/)
 
 ## My process
