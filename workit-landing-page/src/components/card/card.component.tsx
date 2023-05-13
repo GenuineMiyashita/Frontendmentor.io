@@ -22,7 +22,7 @@ const Card = () => {
             </p>
           </div>
           <div className="text-center">
-            <h1 className="font-Fraunces font-semibold text-[50px] leading-[50px] pb-[40px]">
+            <h1 className="font-Fraunces font-semibold text-[45px] leading-[50px] pb-[40px]">
               Data{" "}
               <span className="border-b-[#44FFA1] border-b-4">tailored</span> to
               your needs
@@ -32,14 +32,22 @@ const Card = () => {
             </button>
           </div>
         </div>
-        {/* HERO IMAGE IS HIDDEN */}
-        <div className="w-[300px] absolute hidden">
-          <img src={HeroImage} alt="" />
+        <div>
+          <img
+            src={HeroImage}
+            alt="..."
+            className="absolute z-50 w-[320px] h-[184px] left-[36px] top-[389px]"
+          />
         </div>
-        <div id="ContainerTwo" className="text-center px-[16px] bg-[#FCF8FF]">
+        <div
+          id="ContainerTwo"
+          className="text-center pt-36 px-[16px] bg-[#FCF8FF]"
+        >
           <div className="pb-[40px]">
-            <div>
-              <p className="pb-[24px]">1</p>
+            <div className="mb-[24px]">
+              <p className="border-[1px] border-[#24053E] rounded-[50%] w-[48px] h-[48px] mx-auto p-2 font-Fraunces font-semibold text-[20px]">
+                1
+              </p>
             </div>
 
             <h2 className="font-Fraunces font-semibold pb-[16px] text-[28px] leading-[36px] text-[#24053E]">
@@ -51,8 +59,10 @@ const Card = () => {
             </p>
           </div>
           <div className="pb-[40px]">
-            <div>
-              <span className="mb-[24px]">2</span>
+            <div className="mb-[24px]">
+              <p className="border-[1px] border-[#24053E] rounded-[50%] w-[48px] h-[48px] mx-auto p-2 font-Fraunces font-semibold text-[20px]">
+                2
+              </p>
             </div>
 
             <h2 className="font-Fraunces font-semibold pb-[16px] text-[28px] leading-[36px] text-[#24053E]">
@@ -65,8 +75,10 @@ const Card = () => {
             </p>
           </div>
           <div className="pb-[40px]">
-            <div>
-              <p className="pb-[24px]">3</p>
+            <div className="mb-[24px]">
+              <p className="border-[1px] border-[#24053E] rounded-[50%] w-[48px] h-[48px] mx-auto p-2 font-Fraunces font-semibold text-[20px]">
+                3
+              </p>
             </div>
 
             <h2 className="font-Fraunces font-semibold pb-[16px] text-[28px] leading-[36px] text-[#24053E]">
@@ -102,14 +114,11 @@ const Card = () => {
             </button>
           </div>
         </div>
-        <div
-          id="ContainerFour"
-          className="flex flex-col justify-center align-middle"
-        >
-          <div className="mx-auto">
+        <div id="ContainerFour" className="flex flex-col justify-center">
+          <div className="mx-auto pb-[57.62px]">
             <img src={LogoDark} alt="..." />
           </div>
-          <div className="flex mx-auto">
+          <div className="flex w-[116px] mx-auto pb-[63.78px] justify-between">
             <img src={Facebook} alt="" />
             <img src={Twitter} alt="" />
             <img src={Instagram} alt="" />
