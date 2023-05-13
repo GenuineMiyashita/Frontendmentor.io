@@ -1,4 +1,40 @@
-#ContainerOne,
-#ContainerTwo {
+#hero,
+#features {
   clip-path: ellipse(180% 100% at 50% 0);
+}
+
+/* General Styles */
+
+.btnStyle {
+  @apply h-[3.438rem] p-2 bg-[#44FFA1] font-Manrope font-bold leading-8 text-[#24053E];
+}
+
+.btnHover {
+  @apply hover:bg-[#24053E] hover:text-[#44FFA1] hover:border-[0.063rem] hover:border-[#44FFA1];
+}
+
+/* Feature Styles */
+
+.featureNum {
+  @apply w-12 h-12 p-2 mx-auto font-Fraunces font-semibold text-xl border-[0.063rem] border-[#24053E] rounded-[50%];
+}
+
+.featureTitle {
+  @apply pb-4 font-Fraunces font-semibold leading-9 text-[#24053E] text-[1.75rem];
+}
+
+/* Call-to-Action Styles */
+
+.ctaTitle {
+  @apply w-[17.563rem] pt-8 pb-4 mx-auto  font-Fraunces font-semibold text-[2rem] leading-[3rem] text-white;
+}
+
+/* Tablet */
+
+@media (min-width: 768px) {
+}
+
+/* Desktop */
+
+@media (min-width: 1080px) {
 }
