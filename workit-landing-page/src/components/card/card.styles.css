@@ -29,9 +29,56 @@
   @apply w-[17.563rem] pt-8 pb-4 mx-auto  font-Fraunces font-semibold text-[2rem] leading-[3rem] text-white;
 }
 
+/* ********** */
+/* Media Queries */
+/* ********** */
+
 /* Tablet */
 
 @media (min-width: 768px) {
+  /* Hero Section */
+
+  #hero {
+    width: 768px;
+    height: 540.24px;
+  }
+
+  #heroNavbar {
+    width: 689px;
+  }
+
+  #heroText {
+    width: 573px;
+  }
+
+  #heroTitle {
+    font-size: 60px;
+  }
+
+  #heroImg {
+    width: 514px;
+    height: 296px;
+    top: 392px;
+    left: 151px;
+  }
+
+  /* Features Section */
+
+  .feat-tablet {
+    display: flex;
+  }
+
+  .num-container {
+    align-self: center;
+    margin-bottom: 0;
+    padding-right: 32px;
+  }
+
+  .feat-tablet-text {
+    text-align: left;
+  }
+
+  /* Footer Section */
 }
 
 /* Desktop */

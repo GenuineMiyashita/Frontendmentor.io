@@ -14,7 +14,10 @@ const Card = () => {
       <section id="hero" className="h-[30.107rem] bg-[#24053E]">
         <header>
           {/* Navigation Bar */}
-          <nav className="flex justify-between pt-[2rem] pb-[4rem] px-[1rem] text-white">
+          <nav
+            id="heroNavbar"
+            className="flex justify-between pt-[2rem] pb-[4rem] px-[1rem] mx-auto text-white"
+          >
             <a href="#">
               <img src={LogoLight} alt="workit company logo" />
             </a>
@@ -26,18 +29,24 @@ const Card = () => {
             </a>
           </nav>
         </header>
-        <div className="text-center text-white">
-          <h1 className="font-Fraunces font-semibold text-[2.813rem] leading-[3.125rem] pb-10">
+        <div id="heroText" className="text-center text-white mx-auto">
+          <h1
+            id="heroTitle"
+            className="font-Fraunces font-semibold text-[2.813rem] leading-[3.125rem] pb-10"
+          >
             Data <span className="border-b-[#44FFA1] border-b-4">tailored</span>{" "}
             to your needs.
           </h1>
-          <button className="w-[8.313rem] btnStyle btnHover">Learn More</button>
+          <button id="heroBtn" className="w-[8.313rem] btnStyle btnHover">
+            Learn More
+          </button>
         </div>
       </section>
 
       {/* Hero Image */}
       <div>
         <img
+          id="heroImg"
           src={HeroImage}
           alt="cellphone with positive trending graph"
           className="w-[20rem] h-[11.5rem] absolute z-50  left-[2.25rem] top-[24.313rem]"
@@ -47,40 +56,46 @@ const Card = () => {
 
       {/* Features Section */}
       <section id="features" className="text-center pt-36 px-4 bg-[#FCF8FF]">
-        <div className="pb-10">
-          <div className="mb-6">
+        <div className="pb-10 feat-tablet">
+          <div className="num-container mb-6">
             <p className="featureNum">1</p>
           </div>
 
-          <h2 className="featureTitle">Actionable insights</h2>
-          <p className="font-Manrope">
-            Optimize your products, improve customer satisfaction and stay ahead
-            of the competition with our product data analytics.
-          </p>
+          <div className="feat-tablet-text">
+            <h2 className="featureTitle">Actionable insights</h2>
+            <p className="font-Manrope">
+              Optimize your products, improve customer satisfaction and stay
+              ahead of the competition with our product data analytics.
+            </p>
+          </div>
         </div>
-        <div className="pb-10">
-          <div className="mb-6">
+        <div className="pb-10 feat-tablet">
+          <div className="num-container mb-6">
             <p className="featureNum">2</p>
           </div>
 
-          <h2 className="featureTitle">Data-driven decisions</h2>
-          <p className="font-Manrope">
-            Make data-driven decisions with our product data analytics. Our
-            AI-generated reports hep you unlock insights hidden in your product
-            data.
-          </p>
+          <div className="feat-tablet-text">
+            <h2 className="featureTitle">Data-driven decisions</h2>
+            <p className="font-Manrope">
+              Make data-driven decisions with our product data analytics. Our
+              AI-generated reports hep you unlock insights hidden in your
+              product data.
+            </p>
+          </div>
         </div>
-        <div className="pb-10">
-          <div className="mb-6">
+        <div className="pb-10 feat-tablet">
+          <div className="num-container mb-6">
             <p className="featureNum">3</p>
           </div>
 
-          <h2 className="featureTitle">Always affordable</h2>
-          <p className="font-Manrope">
-            Always affordable pricing that scales with your business. Get
-            top-quality product data analytics services without hidden costs or
-            unexpected fees.
-          </p>
+          <div className="feat-tablet-text">
+            <h2 className="featureTitle">Always affordable</h2>
+            <p className="font-Manrope">
+              Always affordable pricing that scales with your business. Get
+              top-quality product data analytics services without hidden costs
+              or unexpected fees.
+            </p>
+          </div>
         </div>
       </section>
       {/* End Features Section */}
