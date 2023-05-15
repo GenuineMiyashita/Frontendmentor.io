@@ -204,6 +204,7 @@
 
   #featuresContainer {
     display: flex;
+    padding-top: 5rem;
   }
 
   .feat-tablet {
@@ -246,6 +247,8 @@
     width: 69.5rem;
     height: 40.484rem;
     margin: 0 auto;
+    left: 3.125rem;
+    bottom: 3.125rem;
   }
 
   #ctaImg {
