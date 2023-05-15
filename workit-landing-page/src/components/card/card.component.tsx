@@ -19,15 +19,11 @@ const Card = () => {
             id="heroNavbar"
             className="flex justify-between pt-[2rem] pb-[4rem] px-[1rem] mx-auto text-white"
           >
-            <a href="#">
-              <img src={LogoLight} alt="workit company logo" />
-            </a>
+            <img src={LogoLight} alt="workit company logo" />
 
-            <a href="#">
-              <p className="border-b-2 border-b-[#44FFA1] leading-8 font-Manrope font-bold hover:text-[#44FFA1]">
-                Apply for access
-              </p>
-            </a>
+            <p className="border-b-2 border-b-[#44FFA1] leading-8 font-Manrope font-bold hover:text-[#44FFA1] hover:cursor-pointer">
+              Apply for access
+            </p>
           </nav>
         </header>
         <div id="heroText" className="text-center text-white mx-auto">
@@ -115,7 +111,7 @@ const Card = () => {
           <img
             id="ctaImg"
             src={Founder}
-            alt="photo of the company founder"
+            alt="company founder"
             className="w-[16.563rem] mx-auto relative top-12 z-0"
           />
           <img
@@ -156,15 +152,11 @@ const Card = () => {
           <img src={LogoDark} alt="workit company logo" />
         </div>
         <div className="flex w-[7.25rem] mx-auto pb-[3.986rem] justify-between">
-          <a href="#">
-            <img src={Facebook} alt="facebook logo" />
-          </a>
-          <a href="#">
-            <img src={Twitter} alt="twitter logo" />
-          </a>
-          <a href="#">
-            <img src={Instagram} alt="instagram logo" />
-          </a>
+          <img src={Facebook} alt="facebook logo" />
+
+          <img src={Twitter} alt="twitter logo" />
+
+          <img src={Instagram} alt="instagram logo" />
         </div>
       </footer>
       {/* End Footer */}
