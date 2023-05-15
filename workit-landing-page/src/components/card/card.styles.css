@@ -41,7 +41,7 @@
   #hero {
     position: relative;
     z-index: 50;
-    width: 48px;
+    width: 48rem;
     height: 33.765rem;
     background-image: url("../../assets/bg-pattern-1.svg"),
       url("../../assets/bg-pattern-2.svg");
