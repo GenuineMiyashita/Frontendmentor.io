@@ -43,7 +43,7 @@ Your users should be able to:
 
 ### Links
 
-- Solution URL: [Solution](https://www.frontendmentor.io/solutions/results-summary-IGVogVjF2j)
+- Solution URL: [Solution](https://www.frontendmentor.io/solutions/workit-landing-page-react-typescript-tailwind-aQN6VFLf6W)
 - Live Site URL: [Live](https://fmentorresultssummary.netlify.app/)
 
 ## My process
