@@ -1,6 +1,6 @@
 # Frontend Mentor - Workit landing page
 
-![Design preview for the Workit landing page coding challenge](./preview.jpg)
+![Design preview for the Workit landing page coding challenge](./src/assets/preview.jpg)
 
 ## Table of contents
 
@@ -27,9 +27,19 @@ Your users should be able to:
 - View the optimal layout for the interface depending on their device's screen size
 - See hover and focus states for all interactive elements on the page
 
-### Screenshot
+### Screenshots
+
+## Desktop
 
 ![Snapshot](./src/assets/DesktopFinalization.png)
+
+## Tablet
+
+![Snapshot](./src/assets/TabletFinlization.png)
+
+## Mobile
+
+![Snapshot](./src/assets/MobileFinalization.png)
 
 ### Links
 
@@ -38,7 +48,7 @@ Your users should be able to:
 
 ## My process
 
-This is my fifth Frontend Mentor challenge using React, TypeScript, and Tailwind. As usual, I started it running <code>npx create-react-app --template TypeScript </code>. For this challenge, I aimed to be a little more "complex" and start working with multiple components, usually, it's only a card component. This time, I added a button and a list component in preparation for harder challenges that work with multiple components.
+This is my first premium challenge completed on Frontend Mentor and it's definitely an experience compared to free challenges. I still started with my mobile-first approach and used media queries to handle tablet and desktop screens, however, it required a lot more preparation on my end as it wasn't a simple singular card in the center of the screen compared to the recently challenges that I've completed.
 
 ### Built with
 
@@ -49,11 +59,11 @@ This is my fifth Frontend Mentor challenge using React, TypeScript, and Tailwind
 
 ### What I learned
 
-As usual, my experience with React, Tailwind, and TypeScript continue to increase with each project/challenge I tackle. With this solution, I figured the list of different character attributes was a good opportunity to work with a list element and populate it through the .map(). It took me a while to sort out the individual buttons for each attribute and I still feel as if it could of been done better.
+Because this challenge required a mobile, tablet, and desktop view. I gained some valuable experience in media queries and the dev tools. I don't talk about the dev tools a lot even though I'm always using them, however, since this challenge was a lot more in-depth compared to previous challenges, I used the dev tools a lot more to double check if certain CSS was being applied/ignored in unintended ways. Additionally, I gained experience in setting up custom classes using Tailwind syntax to help reduce redundant Tailwind classes.
 
 ### Continued development
 
-Same as usual, I want to continue development on React, Tailwind, and TypeScript. I'm going to start tackling larger challenges on Frontend that will provide more in-depth practice that you only experience with more complex projects.
+Same as usual, I want to continue development on React, Tailwind, and TypeScript. This was my first "larger" challenge completed and I thoroughly enjoyed it as I feel that I get to step away with a lot of good information in using React, Tailwind, and TypeScript. My only issue is that I want to start pushing myself to be more declarative in TypeScript, at the moment, it's mainly just a basic error guide. However, I want to start using interfaces, types, etc more.
 
 ## Author
 
