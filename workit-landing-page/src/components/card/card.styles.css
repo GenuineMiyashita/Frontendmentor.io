@@ -162,6 +162,7 @@
     margin: 0 auto;
     background-position: bottom 18.75rem right 77.188rem,
       bottom 12.5rem left 81.25rem;
+    clip-path: ellipse(100% 100% at 50% 0);
   }
 
   #heroNavbar {
@@ -193,10 +194,12 @@
   #features {
     position: relative;
     z-index: 40;
-    bottom: 1.875rem;
+    bottom: 6rem;
     width: 90rem;
     margin: 0 auto;
     padding-top: 17.188rem;
+    padding-bottom: 8rem;
+    clip-path: ellipse(100% 100% at 50% 0);
   }
 
   #featuresContainer {
